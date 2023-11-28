@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" typehref="style.css">
+    <link rel="stylesheet" type ="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Quantum Computer</title>
+</head>
+
+<body>
+    <script>
+        // Adiciona uma classe "fixed" ao menu quando o usuário rola a página
+        window.onscroll = function() {
+            var navbar = document.getElementById("navbar");
+            var body = document.body;
+
+            if (window.pageYOffset >= navbar.offsetTop) {
+                body.classList.add("fixed");
+            } else {
+                body.classList.remove("fixed");
+            }
+        };
+    </script>
+
+    <div>
+        <header>
+
+            <img class="logo" src="img/Qiskit.JPG" alt="Logo do Qiskit" style="width: 100px; height: 100px;">
+
+            <!-- logo -->
+
+            <div class="cabeçalho-link" class="navbar" id="navbar">
+                <ul>
+                    <li><a href="intro.html">Introdução</a></li>
+                    <li><a href="aplication.html">Aplicações</a></li>
+                    <li><a href="ingresso.html">Como Ingressar</a></li>
+                    <li><a href="mat.html">Matematica Aplicada</a></li>
+                    <li><a href="Qiskit.html">Qiskit</a></li>
+                    <a href="#contato">
+                        <button>Contato</button>
+                    </a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- cabeçalho-link -->
+        </header>
+
+        <div class="container-text">
+            <div class="text">
+                <h3>Ola, Pessoal</h3>
+                <h1>Eu <span>Elizabeth Elmiz</span></h1>
+                <p>Sou uma empresária e meu único objetivo é fazer com que seu dinheiro se valorize, trabalhei 10 anos da bolsa de valores e sou a melhor no que faço.</p>
+
+                <br>
+                <!-- redes-social -->
+                <a href="box model.html">
+                    <button>Sobre Mim</button>
+                </a>
+            </div>
+            <!-- text -->
+        </div>
+        <!-- container-text -->
+    </div>
+    <!-- background -->
+
+
+    <script type="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <section class="about" id="section2">
+        <div>
+            <h2>Habilidades</h2>
+            <div class="column">
+
+                <p>SOFT SKILL: Visão de negocio, aversão poupança, network global.</p>
+            </div>
+            <br>
+            <div class="column">
+                <p>FORMAÇÕES: Engenheira da computação, Trader, Engenheira Elétrica e cursando egenharia em blockchain.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="project-secction" class="content" id="section1">
+        <h2>Secção do projeto</h2>
+        <div class="project-secction">
+            <img src="img/1.jpg" alt="Projeto 1">
+            <h3>
+                Primeiro contato
+            </h3>
+            <p> Introdução
+            </p>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <!-- Repita para outros projetos -->
+    </section>
+
+    <!-- Outras seções, como Contato -->
+
+
+
+
+
+    <section id="form" action="processar.php" method="post">
+        <h2>Entre em Contato</h2>
+
+
+
+        <form class="form" action="processar.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        <p class="p_footer">&copy; IMPACTA 2023</p>
+    </footer>
+</body>
+
+</html>
